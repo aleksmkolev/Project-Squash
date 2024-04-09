@@ -1,0 +1,26 @@
+<div class="headerContainer">
+  <header>
+    <section class="happy-mind-logo">
+      <img class="logo" src="https://cdn0.iconfinder.com/data/icons/sport-66/64/balls_icons_outline_col-16-512.png" alt="">
+     <a routerLink="/"><span>Squash</span> <span>Pal</span></a>
+ </section>
+      <nav>
+          <ul>
+              <li><a routerLink="/home">Main</a></li>
+              <li><a routerLink="/themes">Courts</a></li>
+              <li><a routerLink="/add-theme">Find</a></li>
+              <ng-container *ngIf="!isLoggedIn">
+                  <li><a routerLink="/auth/login">Sign In</a></li>
+                  <li class="signupBtn"><a routerLink="/auth/register">Register</a></li>
+              </ng-container>
+              <ng-container *ngIf="isLoggedIn">
+                  <li><a routerLink="/auth/profile">{{username}}'s Profile</a></li>
+                  <li (click)="logout()">
+                    <a>Logout</a>
+                  </li>
+              </ng-container>
+          </ul>
+          
+      </nav>
+  </header>
+</div>

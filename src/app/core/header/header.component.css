@@ -1,0 +1,84 @@
+
+header {
+  background: rgb(255, 253, 245);
+  background: linear-gradient(
+    142deg,
+    rgba(255, 253, 245, 1) 0%,
+    rgba(255, 253, 240, 1) 100%
+  );
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 15px -4px rgba(0, 0, 0, 0.75);
+  position: relative;
+  z-index: 10;
+}
+
+.headerContainer{
+  margin: auto;
+}
+
+.logins{
+  display: flex;
+  align-items: center;
+}
+
+.happy-mind-logo{
+  margin-left: 12px;
+  font-size: 45px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bold;
+}
+
+.logo{
+  width: 12%;
+}
+
+ul {
+  display: flex;
+  margin-right: 10px;
+}
+
+ul div {
+  display: flex;
+}
+
+li {
+  margin-right: 15px;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+li a {
+  color: #1b392c;
+  transition: 0.3s;
+}
+
+li a:hover {
+  color: #42b18c;
+}
+
+.signupBtn a {
+  color: white;
+  background-color: #28503f;
+  padding: 4px 10px;
+  border: 2px solid #95bdb0;
+  border-radius: 21px;
+  position: relative;
+  bottom: 4px;
+  position: relative;
+  top: 2px;
+}
+.signupBtn a:hover {
+  text-decoration: none;
+  background: #35886c;
+}
+
+.menuOne{
+  align-items: center;
+}

@@ -1,0 +1,43 @@
+.homeContainer {
+  padding: 50px 0 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.homeContainer section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex: 1;
+}
+.imgWrapper {
+  width: 85%;
+  margin: auto ;
+}
+img{
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 10px 10px 61px -25px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 61px -25px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 61px -25px rgba(0,0,0,0.75);
+}
+
+.quoteWrapper{
+  margin: auto;
+  color: #1B392C;
+}
+
+.quoteWrapper blockquote{
+  /* max-width: 85%; */
+  font-size: 3.5rem;
+  margin-left: 100px;
+}
+.quoteWrapper h4{
+  text-align: right;
+  font-size: 3rem;
+  margin: 0;
+}

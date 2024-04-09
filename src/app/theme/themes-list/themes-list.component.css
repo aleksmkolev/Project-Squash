@@ -1,0 +1,54 @@
+/* theme list item */
+
+.theme-container a {
+  text-decoration: blanchedalmond;
+  color: inherit;
+}
+
+.theme-container span {
+  font-weight: bold;
+}
+
+.theme-container h2,
+p {
+  padding: 1em 0 0.2em;
+  margin: auto;
+}
+
+.theme-name-wrapper {
+  display: flex;
+  background-color: #C4FCEF;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3em 0.5em;
+  border: 2px solid #4D8076;
+  border-radius: 0.3em;
+  font-size: 0.8em;
+  margin-top: 0.5em;
+}
+
+.theme-title {
+  padding: 0;
+}
+
+.theme-name {
+  width: 70%;
+  font-weight: bolder;
+  margin: 1rem;
+}
+.theme-name:hover{
+  color: #845EC2;
+}
+
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+
+time {
+  font-weight: bold;
+  color: #B0A8B9;
+}
