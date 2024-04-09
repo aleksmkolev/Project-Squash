@@ -1,3 +1,7 @@
+
+![squashproject](https://github.com/aleksmkolev/Project-Squash/assets/165174435/52e57cef-b357-4629-9748-82208e48f26a)
+
+
 Angular May 2024
 
 Project Squash is simple Angular application for finding squash courts/player nearby. This is my exam project for SoftUni Angular course for Feb 2024.
